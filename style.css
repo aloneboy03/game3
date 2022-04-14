@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right bottom, #74c0fc 10%,  #228be6 60%, #1864ab);
+    background-repeat: no-repeat;
+}
+
+.navbar h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background-color: #1864ab;
+    padding: 1rem;
+    color: #e7f5ff;
+}
+
+.result,
+.hands,
+.selected--hand,
+.res--game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    width: 100vw;
+    height: 8rem;
+    gap: 0.8rem;
+}
+
+.user--btn,
+.comp--btn{
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: none;
+    background-color: #f03e3e;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #e7f5ff;
+}
+
+.result--num{
+    font-size: 3rem;
+    color: #e7f5ff;
+}
+
+
+
+.hands{
+    width: 100vw;
+    height: 10rem;
+    gap: 6rem;
+}
+
+.selected--hand{
+    width: 100vw;
+    height: 10rem;
+}
+
+.hands i{
+    font-size: 2rem;
+    background-color: #1864ab;
+    color: #e7f5ff;
+    padding: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.selected--hand{
+    gap: 1rem;
+}
+
+.selected--hand i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background-color: #f03e3e;
+    color: #e7f5ff;
+
+}
+
+.selected--hand p{
+    text-align: center;
+    color: #e7f5ff;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.result--text{
+    width: 10rem;
+    text-align: center;
+    color: #e7f5ff;
+}
+
+.restart--game{
+    padding: 0.5rem 3rem;
+    border-radius: 12px;
+    border: none;
+    background-color: #1864ab;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e7f5ff;
+    cursor: pointer;
+}
